@@ -1,0 +1,115 @@
+.section-hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  width: 1216px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #c9c9c970;
+}
+
+.links-navbar {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulo-nome {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1e1e1e;
+}
+.link-nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.botao-head {
+  background-color: #219653;
+  border-radius: 16px;
+  border: none;
+  height: 56px;
+  width: 126px;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-info {
+  width: 1216px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.div-img {
+  margin: 15px;
+}
+
+.img-profile {
+  height: 550px;
+  width: 550px;
+  border-radius: 20px;
+  border: 3px solid #219653;
+}
+
+.titulo-hero {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.ponto {
+  color: #219653;
+}
+
+.text-hero{
+  font-family: 'Open Sans', sans-serif;
+  color: #1e1e1e;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.botao-hero {
+  margin-top: 15px;
+  background-color: #219653;
+  border-radius: 16px;
+  border: none;
+  height: 56px;
+  width: 248px;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icones-sociais {
+  width: 20%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
