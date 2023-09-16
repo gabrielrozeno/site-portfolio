@@ -1,7 +1,16 @@
+body {
+  background-color: #fefefe;
+}
+
+h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .section-hero {
   width: 100vw;
   height: 100vh;
-  background-color: #fefefe;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -108,8 +117,64 @@
 
 .icones-sociais {
   width: 20%;
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.icone-social {
+  width: 32px;
+  height: 32px;
+}
+
+.habilidades-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-habilidades {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards-habilidades {
+  width: 1216px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+}
+
+.icon-card {
+  width: 80px;
+  height: 80px;
+}
+
+.text-card {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #1e1e1e;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.list-item-card {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
