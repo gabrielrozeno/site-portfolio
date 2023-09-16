@@ -1,9 +1,13 @@
+* {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #fefefe;
 }
 
 h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 22px;
   font-weight: bold;
 }
@@ -85,7 +89,7 @@ h3 {
 }
 
 .titulo-hero {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 48px;
   font-weight: bold;
 }
@@ -94,8 +98,8 @@ h3 {
   color: #219653;
 }
 
-.text-hero{
-  font-family: 'Open Sans', sans-serif;
+.text-hero {
+  font-family: "Open Sans", sans-serif;
   color: #1e1e1e;
   line-height: 28px;
   font-size: 18px;
@@ -137,7 +141,7 @@ h3 {
 }
 
 .titulo-habilidades {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
@@ -154,9 +158,15 @@ h3 {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 10px;
 }
+
+.card:hover{
+  box-shadow: 5px 13px 38px 0px #00000027;
+  transition: 800ms;
+}
+
 
 .icon-container {
   display: flex;
@@ -175,7 +185,7 @@ h3.title-card {
 
 .text-card {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1e1e1e;
   line-height: 28px;
   font-size: 18px;
@@ -183,8 +193,74 @@ h3.title-card {
 }
 
 .list-item-card {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+.projetos-section {
+  width: 100vw;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-primeira-div {
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projetos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.card-projeto {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-projeto:hover{
+  box-shadow: 5px 13px 38px 0px #00000027;
+  transition: 800ms;
+}
+
+.project-img {
+  height: auto;
+  width: 400px;
+}
+
+h3.projetct-title {
+  text-align: center;
+}
+
+.titulo-projetos {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.project-links {
+  width: 80px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.project-link-icon {
+  width: 24px;
+  height: 24px;
 }
