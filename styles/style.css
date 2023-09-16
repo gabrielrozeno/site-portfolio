@@ -160,6 +160,7 @@ h3 {
   flex-direction: column;
   border: 1px solid #d9d9d9;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .card:hover{
@@ -231,6 +232,7 @@ h3.title-card {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .card-projeto:hover{
@@ -245,9 +247,18 @@ h3.title-card {
 
 h3.projetct-title {
   text-align: center;
+  font-size: 24px;
 }
 
-.titulo-projetos {
+.project-desc {
+  font-family: "Open Sans", sans-serif;
+  color: #1e1e1e;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.titulo-projetos, .titulo-experiencia {
   font-family: "Space Grotesk", sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -263,4 +274,62 @@ h3.projetct-title {
 .project-link-icon {
   width: 24px;
   height: 24px;
+}
+
+.experiencia-section {
+  width: 100vw;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-experiencia-section {
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-experiencia {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.card-exp {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 800px;
+  height: 129px;
+  background-color: #D9D9D9;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.exp-div-img{
+  width: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center ;
+}
+
+.exp-div-text {
+  width: 85%;
+}
+
+h3.exp-job-title{
+  margin: 0px;
+}
+
+.exp-company, .exp-desc {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: #1e1e1e;
+  line-height: 28px;
+  font-size: 14px;
 }
