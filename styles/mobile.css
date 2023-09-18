@@ -95,11 +95,14 @@
   .exp-div-img {
     width: 100vw;
     justify-content: center;
+    align-items: center;
   }
 
   .exp-div-text {
     width: 95vw;
     justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 
   h3.exp-job-title {
@@ -117,15 +120,21 @@
 
   .contato-section {
     width: 96vw;
+    justify-content: center;
+    align-items: center;
   }
 
   .titulo-e-sub,
   .infos-de-contato {
     width: 96vw;
+    justify-content: center;
+    align-items: center;
   }
 
   .infos-de-contato {
     width: 96vw;
+    align-items: center;
+    justify-content: center;
   }
 
   .div-footer {
