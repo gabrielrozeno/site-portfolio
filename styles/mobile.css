@@ -1,0 +1,134 @@
+@media only screen and (max-device-width: 450px) {
+  * {
+    overflow-x: hidden;
+  }
+  .content-container {
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  .navbar {
+    width: 96vw;
+    height: fit-content;
+  }
+
+  .links-navbar {
+    width: auto;
+  }
+
+  .link-nav {
+    display: none;
+  }
+
+  .hero-info {
+    width: 96vw;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .img-profile {
+    margin-top: 30px;
+    height: auto;
+    width: 300px;
+  }
+
+  .titulo-hero,
+  .text-hero {
+    text-align: center;
+  }
+
+  .botao-hero {
+    width: 96vw;
+  }
+
+  .icones-sociais {
+    width: 96vw;
+    justify-content: center;
+    column-gap: 22px;
+  }
+
+  .habilidades-section {
+    width: 96vw;
+    align-self: center;
+  }
+
+  .cards-habilidades {
+    width: 96vw;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .projetos-primeira-div {
+    width: 96vw;
+  }
+
+  .projetos {
+    grid-template-columns: auto;
+    width: 96vw;
+  }
+
+  .project-img {
+    height: auto;
+    width: 300px;
+  }
+
+  .titulo-experiencia-section {
+    width: 96vw;
+  }
+
+  .cards-experiencia {
+    width: 96vw;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .card-exp {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .exp-div-img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .exp-div-text {
+    width: 95vw;
+    justify-content: flex-start;
+  }
+
+  h3.exp-job-title {
+    margin-top: 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .exp-company,
+  .exp-desc,
+  .contato-sec-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contato-section {
+    width: 96vw;
+  }
+
+  .titulo-e-sub,
+  .infos-de-contato {
+    width: 96vw;
+  }
+
+  .infos-de-contato {
+    width: 96vw;
+  }
+
+  .div-footer {
+    width: 96vw;
+  }
+}

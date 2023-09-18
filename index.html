@@ -4,296 +4,341 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script src="scripts/script.js"></script>
     <title>Gabriel Rozeno - Desenvolvedor Full-Stack</title>
   </head>
   <body>
-    <section class="section-hero">
-      <div class="navbar">
-        <h1 class="titulo-nome">Gabriel Rozeno</h1>
-        <div class="links-navbar">
-          <a onclick="menuNav('section-habilidades')" class="link-nav">Habilidades</a>
-          <a onclick="menuNav('section-portfolio')" class="link-nav">Portfólio</a>
-          <a onclick="menuNav('section-experiencia')" class="link-nav">Experiência</a>
-        </div>
-        <button type="button" class="botao-head" onclick="menuNav('section-contato')">Contato</button>
-      </div>
-      <div class="hero-info">
-        <div class="infos">
-          <h1 class="titulo-hero">
-            Olá, muito prazer!<br />Sou o Gabriel Rozeno<span class="ponto"
-              >.</span
-            >
-            👋
-          </h1>
-          <p class="text-hero">
-            Programador Full-Stack desde 2022 com foco em <br />projetos
-            JavaScript utilizando React.js e Node.js!
-          </p>
-          <button type="button" class="botao-hero" onclick="menuNav('section-contato')">Entre em Contato</button>
-          <div class="icones-sociais">
-            <a href="https://github.com/gabrielrozeno"
-              ><img
-                src="imgs/logo-github.svg"
-                alt="Github Gabriel Rozeno Desenvolvedor Full-Stack"
-                class="icone-social"
-            /></a>
-            <a href="https://www.linkedin.com/in/gabrielrozeno/"
-              ><img
-                src="imgs/logo-linkedin.svg"
-                alt="LinkedIn Gabriel Rozeno Desenvolvedor Full-Stack"
-                class="icone-social"
-            /></a>
-          </div>
-        </div>
-        <div class="div-img">
-          <img
-            src="imgs/perfil.jpeg"
-            alt="Foto Gabriel Rozeno Desenvolvedor Full-Stack"
-            class="img-profile"
-          />
-        </div>
-      </div>
-    </section>
-    <section class="habilidades-section" id="section-habilidades">
-      <div>
-        <h1 class="titulo-habilidades">
-          Habilidades que<br /><span class="ponto">domino.</span>
-        </h1>
-      </div>
-      <div class="cards-habilidades">
-        <div class="card">
-          <div class="icon-container">
-            <img src="imgs/skill-icon.svg" alt="Icone Card" class="icon-card" />
-          </div>
-          <h3 class="title-card">Habilidades Gerais</h3>
-          <p class="text-card">
-            Tecnologias que utilizo no dia a dia da programação.
-          </p>
-          <div class="lista-container">
-            <ul>
-              <li class="list-item-card">Git</li>
-              <li class="list-item-card">Github</li>
-              <li class="list-item-card">Docker</li>
-              <li class="list-item-card">VSCode</li>
-              <li class="list-item-card">Insomnia</li>
-              <li class="list-item-card">Postman</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="icon-container">
-            <img
-              src="imgs/skill-icon1.svg"
-              alt="Icone Card"
-              class="icon-card"
-            />
-          </div>
-          <h3 class="title-card">Front-End</h3>
-          <p class="text-card">
-            Ferramentas utilizadas para criação de sistemas web.
-          </p>
-          <div class="lista-container">
-            <ul>
-              <li class="list-item-card">JavaScript</li>
-              <li class="list-item-card">HTML</li>
-              <li class="list-item-card">CSS</li>
-              <li class="list-item-card">React.js</li>
-              <li class="list-item-card">Redux</li>
-              <li class="list-item-card">Styled Components</li>
-              <li class="list-item-card">Context API</li>
-              <li class="list-item-card">Axios</li>
-              <li class="list-item-card">React Query</li>
-              <li class="list-item-card">Atomic Design</li>
-              <li class="list-item-card">React Router</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="icon-container">
-            <img
-              src="imgs/skill-icon2.svg"
-              alt="Icone Card"
-              class="icon-card"
-            />
-          </div>
-          <h3 class="title-card">Back-End</h3>
-          <p class="text-card">
-            Controle de banco de dados e aplições na nuvem.
-          </p>
-          <div class="lista-container">
-            <ul>
-              <li class="list-item-card">JavaScript</li>
-              <li class="list-item-card">Node.js</li>
-              <li class="list-item-card">SQL</li>
-              <li class="list-item-card">Express</li>
-              <li class="list-item-card">Autenticação JWT</li>
-              <li class="list-item-card">Sequelize</li>
-              <li class="list-item-card">Mongoose</li>
-              <li class="list-item-card">Postgres</li>
-              <li class="list-item-card">MongoDB</li>
-              <li class="list-item-card">MongoDB Atlas</li>
-              <li class="list-item-card">Heroku</li>
-              <li class="list-item-card">Vercel</li>
-              <li class="list-item-card">AWS</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="projetos-section" id="section-portfolio">
-      <div class="projetos-primeira-div">
-        <h1 class="titulo-projetos">
-          Portfólio <br /><span class="ponto">de projetos.</span>
-        </h1>
-      </div>
-
-      <div class="projetos">
-        <div class="card-projeto">
-          <img src="imgs/wallet.png" alt="" class="project-img" />
-          <h3 class="projetct-title">WalletApp</h3>
-          <p class="project-desc">Aplicação em React.js e Express + MongoDB</p>
-          <div class="project-links">
-            <a href="#"><img src="imgs/material-symbols_link.svg" alt="" /></a>
-            <a href="#"
-              ><img src="imgs/logo-github.svg" alt="" class="project-link-icon"
-            /></a>
-          </div>
-        </div>
-        <div class="card-projeto">
-          <div class="container-img">
-            <img src="imgs/bookclub.png" alt="" class="project-img" />
-          </div>
-          <h3 class="projetct-title">BookClub</h3>
-          <p class="project-desc">
-            Aplicação em React.js e Express + Sequelize
-          </p>
-          <div class="project-links">
-            <a href="#"><img src="imgs/material-symbols_link.svg" alt="" /></a>
-            <a href="#"
-              ><img src="imgs/logo-github.svg" alt="" class="project-link-icon"
-            /></a>
-          </div>
-        </div>
-        <div class="card-projeto">
-          <div class="container-img">
-            <img src="imgs/wallet.png" alt="" class="project-img" />
-          </div>
-          <h3 class="projetct-title">Supermarket List</h3>
-          <p class="project-desc">Aplicação em React.js e Express + MongoDB</p>
-          <div class="project-links">
-            <a href="#"><img src="imgs/material-symbols_link.svg" alt="" /></a>
-            <a href="#"
-              ><img src="imgs/logo-github.svg" alt="" class="project-link-icon"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="experiencia-section" id="section-experiencia">
-      <div class="titulo-experiencia-section">
-        <h1 class="titulo-experiencia">
-          Experiências <br /><span class="ponto">profissionais.</span>
-        </h1>
-      </div>
-      <div class="cards-experiencia">
-        <div class="card-exp">
-          <div class="exp-div-img">
-            <img
-              src="imgs/logo-icone.png"
-              alt="Logo Empresa"
-              class="logo-company-experiencia"
-            />
-          </div>
-          <div class="exp-div-text">
-            <h3 class="exp-job-title">Freelancer - Full-Stack Developer</h3>
-            <p class="exp-company">
-              Kilowatt Apps - Janeiro de 2022 até o momento
-            </p>
-            <p class="exp-desc">
-              Desenvolvedor web responsável por criar aplicações de larga escala
-              para os clientes utilizando principalmente a tecnogia React.js.
-            </p>
-          </div>
-        </div>
-        <div class="card-exp">
-          <div class="exp-div-img">
-            <img
-              src="imgs/logo-icone.png"
-              alt="Logo Empresa"
-              class="logo-company-experiencia"
-            />
-          </div>
-          <div class="exp-div-text">
-            <h3 class="exp-job-title">UI Designer</h3>
-            <p class="exp-company">
-              rzn. - Novembro de 2020 até Janeiro de 2022
-            </p>
-            <p class="exp-desc">
-              Responsável por criar interfaces para aplicações web e mobile.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contato-section" id="section-contato"> 
-      <div class="main-contato">
-        <div class="titulo-e-sub">
-          <h1 class="contato-sec-title">
-            Como posso <br /><span class="ponto">te ajudar?</span>
-          </h1>
-          <p class="contato-sec-subtitle">
-            Estou à diposição para ajudar o seu projeto ou sua empresa.
-          </p>
-        </div>
-        <div class="infos-de-contato">
-          <div>
-            <a href="#"
-              ><img src="imgs/mail-outline.svg" alt="" class="icone-contato"
-            /></a>
-          </div>
-          <div>
-            <p class="meio-de-contato">gabrozenodev@gmail.com</p>
-          </div>
-          <div>
-            <a href="#"
-              ><img src="imgs/Vector.svg" alt="" class="icone-contato"
-            /></a>
-          </div>
-          <div>
-            <p class="meio-de-contato">(83) 99633-3989</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="footer">
-      <div class="div-footer">
-        <div class="logo-footer">
+    <div class="content-container">
+      <section class="section-hero">
+        <div class="navbar">
           <h1 class="titulo-nome">Gabriel Rozeno</h1>
+          <div class="links-navbar">
+            <a onclick="menuNav('section-habilidades')" class="link-nav"
+              >Habilidades</a
+            >
+            <a onclick="menuNav('section-portfolio')" class="link-nav"
+              >Portfólio</a
+            >
+            <a onclick="menuNav('section-experiencia')" class="link-nav"
+              >Experiência</a
+            >
+          </div>
+          <button
+            type="button"
+            class="botao-head"
+            onclick="menuNav('section-contato')"
+          >
+            Contato
+          </button>
         </div>
-        <div class="icons-footer">
-          <a href="https://github.com/gabrielrozeno">
+        <div class="hero-info">
+          <div class="infos">
+            <h1 class="titulo-hero">
+              Olá, muito prazer!<br />Sou o Gabriel Rozeno<span class="ponto"
+                >.</span
+              >
+              👋
+            </h1>
+            <p class="text-hero">
+              Programador Full-Stack desde 2022 com foco em <br />projetos
+              JavaScript utilizando React.js e Node.js!
+            </p>
+            <button
+              type="button"
+              class="botao-hero"
+              onclick="menuNav('section-contato')"
+            >
+              Entre em Contato
+            </button>
+            <div class="icones-sociais">
+              <a href="https://github.com/gabrielrozeno"
+                ><img
+                  src="imgs/logo-github.svg"
+                  alt="Github Gabriel Rozeno Desenvolvedor Full-Stack"
+                  class="icone-social"
+              /></a>
+              <a href="https://www.linkedin.com/in/gabrielrozeno/"
+                ><img
+                  src="imgs/logo-linkedin.svg"
+                  alt="LinkedIn Gabriel Rozeno Desenvolvedor Full-Stack"
+                  class="icone-social"
+              /></a>
+            </div>
+          </div>
+          <div class="div-img">
             <img
-              src="imgs/logo-github.svg"
-              alt="Logo Github"
-              class="icone-social"
+              src="imgs/perfil.jpeg"
+              alt="Foto Gabriel Rozeno Desenvolvedor Full-Stack"
+              class="img-profile"
             />
-          </a>
-          <a href="https://www.linkedin.com/in/gabrielrozeno/">
-            <img
-              src="imgs/logo-linkedin.svg"
-              alt="Logo LinkedIn"
-              class="icone-social"
-            />
-          </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="habilidades-section" id="section-habilidades">
+        <div>
+          <h1 class="titulo-habilidades">
+            Habilidades que<br /><span class="ponto">domino.</span>
+          </h1>
+        </div>
+        <div class="cards-habilidades">
+          <div class="card">
+            <div class="icon-container">
+              <img
+                src="imgs/skill-icon.svg"
+                alt="Icone Card"
+                class="icon-card"
+              />
+            </div>
+            <h3 class="title-card">Habilidades Gerais</h3>
+            <p class="text-card">
+              Tecnologias que utilizo no dia a dia da programação.
+            </p>
+            <div class="lista-container">
+              <ul>
+                <li class="list-item-card">Git</li>
+                <li class="list-item-card">Github</li>
+                <li class="list-item-card">Docker</li>
+                <li class="list-item-card">VSCode</li>
+                <li class="list-item-card">Insomnia</li>
+                <li class="list-item-card">Postman</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-container">
+              <img
+                src="imgs/skill-icon1.svg"
+                alt="Icone Card"
+                class="icon-card"
+              />
+            </div>
+            <h3 class="title-card">Front-End</h3>
+            <p class="text-card">
+              Ferramentas utilizadas para criação de sistemas web.
+            </p>
+            <div class="lista-container">
+              <ul>
+                <li class="list-item-card">JavaScript</li>
+                <li class="list-item-card">HTML</li>
+                <li class="list-item-card">CSS</li>
+                <li class="list-item-card">React.js</li>
+                <li class="list-item-card">Redux</li>
+                <li class="list-item-card">Styled Components</li>
+                <li class="list-item-card">Context API</li>
+                <li class="list-item-card">Axios</li>
+                <li class="list-item-card">React Query</li>
+                <li class="list-item-card">Atomic Design</li>
+                <li class="list-item-card">React Router</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-container">
+              <img
+                src="imgs/skill-icon2.svg"
+                alt="Icone Card"
+                class="icon-card"
+              />
+            </div>
+            <h3 class="title-card">Back-End</h3>
+            <p class="text-card">
+              Controle de banco de dados e aplições na nuvem.
+            </p>
+            <div class="lista-container">
+              <ul>
+                <li class="list-item-card">JavaScript</li>
+                <li class="list-item-card">Node.js</li>
+                <li class="list-item-card">SQL</li>
+                <li class="list-item-card">Express</li>
+                <li class="list-item-card">Autenticação JWT</li>
+                <li class="list-item-card">Sequelize</li>
+                <li class="list-item-card">Mongoose</li>
+                <li class="list-item-card">Postgres</li>
+                <li class="list-item-card">MongoDB</li>
+                <li class="list-item-card">MongoDB Atlas</li>
+                <li class="list-item-card">Heroku</li>
+                <li class="list-item-card">Vercel</li>
+                <li class="list-item-card">AWS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projetos-section" id="section-portfolio">
+        <div class="projetos-primeira-div">
+          <h1 class="titulo-projetos">
+            Portfólio <br /><span class="ponto">de projetos.</span>
+          </h1>
+        </div>
+
+        <div class="projetos">
+          <div class="card-projeto">
+            <img src="imgs/wallet.png" alt="" class="project-img" />
+            <h3 class="projetct-title">WalletApp</h3>
+            <p class="project-desc">
+              Aplicação em React.js e Express + MongoDB
+            </p>
+            <div class="project-links">
+              <a href="#"
+                ><img src="imgs/material-symbols_link.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  src="imgs/logo-github.svg"
+                  alt=""
+                  class="project-link-icon"
+              /></a>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <div class="container-img">
+              <img src="imgs/bookclub.png" alt="" class="project-img" />
+            </div>
+            <h3 class="projetct-title">BookClub</h3>
+            <p class="project-desc">
+              Aplicação em React.js e Express + Sequelize
+            </p>
+            <div class="project-links">
+              <a href="#"
+                ><img src="imgs/material-symbols_link.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  src="imgs/logo-github.svg"
+                  alt=""
+                  class="project-link-icon"
+              /></a>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <div class="container-img">
+              <img src="imgs/wallet.png" alt="" class="project-img" />
+            </div>
+            <h3 class="projetct-title">Supermarket List</h3>
+            <p class="project-desc">
+              Aplicação em React.js e Express + MongoDB
+            </p>
+            <div class="project-links">
+              <a href="#"
+                ><img src="imgs/material-symbols_link.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  src="imgs/logo-github.svg"
+                  alt=""
+                  class="project-link-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experiencia-section" id="section-experiencia">
+        <div class="titulo-experiencia-section">
+          <h1 class="titulo-experiencia">
+            Experiências <br /><span class="ponto">profissionais.</span>
+          </h1>
+        </div>
+        <div class="cards-experiencia">
+          <div class="card-exp">
+            <div class="exp-div-img">
+              <img
+                src="imgs/logo-icone.png"
+                alt="Logo Empresa"
+                class="logo-company-experiencia"
+              />
+            </div>
+            <div class="exp-div-text">
+              <h3 class="exp-job-title">Freelancer - Full-Stack Developer</h3>
+              <p class="exp-company">
+                Kilowatt Apps - Janeiro de 2022 até o momento
+              </p>
+              <p class="exp-desc">
+                Desenvolvedor web responsável por criar aplicações de larga
+                escala para os clientes utilizando principalmente a tecnogia
+                React.js.
+              </p>
+            </div>
+          </div>
+          <div class="card-exp">
+            <div class="exp-div-img">
+              <img
+                src="imgs/logo-icone.png"
+                alt="Logo Empresa"
+                class="logo-company-experiencia"
+              />
+            </div>
+            <div class="exp-div-text">
+              <h3 class="exp-job-title">UI Designer</h3>
+              <p class="exp-company">
+                rzn. - Novembro de 2020 até Janeiro de 2022
+              </p>
+              <p class="exp-desc">
+                Responsável por criar interfaces para aplicações web e mobile.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contato-section" id="section-contato">
+        <div class="main-contato">
+          <div class="titulo-e-sub">
+            <h1 class="contato-sec-title">
+              Como posso <br /><span class="ponto">te ajudar?</span>
+            </h1>
+            <p class="contato-sec-subtitle">
+              Estou à diposição para ajudar o seu projeto ou sua empresa.
+            </p>
+          </div>
+          <div class="infos-de-contato">
+            <div>
+              <a href="#"
+                ><img src="imgs/mail-outline.svg" alt="" class="icone-contato"
+              /></a>
+            </div>
+            <div>
+              <p class="meio-de-contato">gabrozenodev@gmail.com</p>
+            </div>
+            <div>
+              <a href="#"
+                ><img src="imgs/Vector.svg" alt="" class="icone-contato"
+              /></a>
+            </div>
+            <div>
+              <p class="meio-de-contato">(83) 99633-3989</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="div-footer">
+          <div class="logo-footer">
+            <h1 class="titulo-nome">Gabriel Rozeno</h1>
+          </div>
+          <div class="icons-footer">
+            <a href="https://github.com/gabrielrozeno">
+              <img
+                src="imgs/logo-github.svg"
+                alt="Logo Github"
+                class="icone-social"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/gabrielrozeno/">
+              <img
+                src="imgs/logo-linkedin.svg"
+                alt="Logo LinkedIn"
+                class="icone-social"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
